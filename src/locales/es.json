@@ -45,8 +45,7 @@
             "name_input_message": "Ingrese al menos 4 caracteres",
             "email_input_placeholder": "Correo electrónico",
             "email_input_message": "Introduce un correo electrónico correcto",
-            "phone_input_label": "Teléfono",
-            "phone_input_placeholder": "Ingresa tu Teléfono",
+            "phone_input_placeholder": "Teléfono",
             "phone_input_message": "Ingrese al menos 8 caracteres de asunto",
             "message_input_placeholder": "Mensaje",
             "message_input_message": "Por favor escribenos algo.",
@@ -54,20 +53,12 @@
         },
         "error_section": {
             "404": {
-                "title": "Oops! Página no encontrada",
+                "title": "Oops! Esta página no puede encontrarse",
                 "description": "Disculpe. La página que está buscando no existe."
             },
             "204": {
                 "title": "Oops! No se encontraron resultados para tu búsqueda",
                 "description": "Intente con otros parámetros."
-            },
-            "302": {
-                "title": "Oops! Propiedad no encontrada",
-                "description": "Disculpe. La propiedad que está buscando no existe."
-            },
-            "306": {
-                "title": "Oops! Desarrollo no encontrado",
-                "description": "Disculpe. El desarrollo que está buscando no existe."
             }
         },
         "detail_carousel": {
@@ -88,10 +79,14 @@
             },
             "contact": "Contacto",
             "broker_cr": "SOY BROKER CR",
-            "go_to_immo": "ACCEDER A IMMO CRM 360"
+            "go_to_immo": "ACCEDER A IMMO CRM 360",
+            "top":{
+                "company_phone": "¿Necesitas ayuda?"
+            }
         },
         "header": {
             "search_form": {
+                "title": "Encuentra tu nueva casa",
                 "keyword_input": "Nombre, Ciudad, Folio...",
                 "operation_input": "OPERACIÓN",
                 "property_type_input": "TIPO DE PROPIEDAD",
@@ -118,7 +113,14 @@
             "contact_title": "Contacto",
             "menu_title": "Menú",
             "social_links": "Síguenos",
-            "copyright": "Todos los derechos reservados."
+            "copyright": "Todos los derechos reservados.",
+            "immo_crm": "Acceder a IMMO CRM 360"
+        },
+        "not_found": {
+            "mesage_error": "OH OH! Al parecer estamos... PERDIDOS :(",
+            "link": "Volver al inicio",
+            "204_message": "Lo siento, no se encontraron resultados con sus parámetros de búsqueda.",
+            "404_message": "Lo siento la página que busca parece no existir."
         },
         "banner": {
             "home_link": "Inicio",
@@ -145,12 +147,14 @@
             },
             "slogan": "ESLOGAN. frase que destaca lo que hace una empresa, hace hincapié en un valor o característica.",
             "mision": {
-                "title": "MISIÓN",
+                "title": "NUESTRA",
+                "title2": "MISIÓN",
                 "description": "La misión de una empresa comprende los objetivos y principios esenciales para el trabajo de la organización. La misión empresarial se declara con la formulación de una sentencia; una frase única en la que se comunica el concepto más importante de un negocio."
             },
             "vision": {
-                "title": "VISIÓN",
-                "description": "La visión de una empresa describe el objetivo que espera lograr en un futuro. la definición de la visión debe ser uno de los papeles centrales del líder, y del equipo ejecutivo de la empresa"
+                "title": "NUESTRA",
+                "title2": "VISIÓN",
+                "description": "La visión de una empresa describe el objetivo que espera lograr en un futuro. la definición de la visión debe ser uno de los papeles centrales del líder, y del equipo ejecutivo de la empresa."
             },
             "values": {
                 "title": "VALORES",
@@ -160,8 +164,8 @@
                 "example_two": {
                     "description": "Solidaridad. Tender una mano al necesitado, anteponer el bienestar colectivo al lucro, saber poner coto a la competitividad empresarial dentro y fuera de la organización."
                 }
-
-            }
+            },
+            "contact-button": "Contáctanos"
         },
         "properties": {
             "title": "Propiedades"
@@ -176,7 +180,6 @@
             "feature_area_lot": "Área de terreno",
             "feature_bedrooms": "Recámaras",
             "feature_bathrooms": "Baños",
-            "feature_half_bathrooms": "Medios Baños",
             "feature_parking": "Estacionamientos",
             "documents": "Documentos",
             "share_prop": "Comparte",
@@ -194,10 +197,12 @@
             "agent_phone": "Teléfono",
             "agent_email": "Correo Electrónico",
             "references": "Referencia",
-            "share_title": "DESCARGA EL CONTENIDO DE ESTA PROPIEDAD",
+            "share_title": "Descarga el Contenido de esta propiedad",
             "contact_us": "CONTÁCTANOS",
-            "map_title": "Ubicación"
-
+            "map_title": "Ubicación",
+            "folio": "Folio",
+            "banners": "Banners",
+            "flyers": "Flyers"
         },
         "developments": {
             "title": "Desarrollos"
@@ -224,7 +229,7 @@
             "agent_information": "Información del Agente",
             "agent_cellphone": "Celular",
             "agent_phone": "Teléfono",
-            "agent_email": "Correo Elelctrónico",
+            "agent_email": "Correo Electrónico",
             "maintenance_includes": "Mantenimiento",
             "price_from": "Desde",
             "contact_us": "CONTÁCTANOS",
@@ -259,7 +264,7 @@
             "breadcrumb": "Inicio"
         },
         "about": {
-            "page_title": "Acerca de Nosotros",
+            "page_title": "Nosotros",
             "breadcrumb": "Nosotros"
         },
         "privacy": {
@@ -273,10 +278,6 @@
         "property": {
             "breadcrumb": "Características"
         },
-        "property_not_found": {
-            "breadcrumb": "Propiedad no encontrada",
-            "page_title": "Propiedad no encontrada"
-        },
         "developments": {
             "page_title": "Desarrollos",
             "breadcrumb": "Desarrollos"
@@ -284,16 +285,9 @@
         "development": {
             "breadcrumb": "Características"
         },
-        "development_not_found": {
-            "breadcrumb": "Desarrollo no encontrado",
-            "page_title": "Desarrollo no encontrado"
-        },
         "search_results": {
             "page_title": "Resultados de búsqueda",
-            "breadcrumb": "Resultado"
-        },
-        "search_results_devs": {
-            "page_title": "Busqueda de desarrollos",
+            "page_title_developments": "Búsqueda de desarrollos",
             "breadcrumb": "Resultado"
         },
         "agents": {
@@ -304,7 +298,7 @@
             "breadcrumb": "Perfil de agente"
         },
         "contact": {
-            "page_title": "CONTÁCTANOS",
+            "page_title": "Contáctanos",
             "breadcrumb": "Contacto"
         },
         "error": {

@@ -537,7 +537,7 @@ section {
 	background-color: #fff;
 }
 .color-box li.green {
-	background-color:#90c923
+	background-color:#ef4b4a
 }
 .color-box li.blue {
 	background-color:#44a9ff
@@ -1748,7 +1748,7 @@ a.btn-read{
 	color:#bcbcbc
 }
 #footer {
-	padding: 50px 0
+	padding: 10px 0
 }
 .footer-logo{
 	padding-bottom: 20px
@@ -1844,7 +1844,7 @@ a.btn-read{
 }
 .page_title{
 	display:inline-block;
-	float:left
+	float:left;
 }
 .banner_area {
 	display: table;
@@ -1869,19 +1869,19 @@ a.btn-read{
 	19.1 Who We Are CSS Start 
 -----------------------------------*/
 #who_are{
-	margin-top:80px;
-	padding: 0
+	padding: 0;
+	margin-bottom:20px;
 }
 .who_text{
 	padding: 70px 0;
 	padding-left:35%;
-	padding-right:20px
+	padding-right:20px;
 }
 .who_text > p{
-	padding-top:20px
+	padding-top:20px;
 }
 .who_list{
-	padding-top:20px
+	padding-top:20px;
 }
 .who_list ul li i{
 	font-size:14px;
@@ -1893,7 +1893,7 @@ a.btn-read{
 	19.2 About Description CSS Start 
 =====================================*/
 #about_description{
-	padding: 70px 0
+	padding: 22px 0
 }
 .accordion{
 	padding-top:30px
@@ -2855,7 +2855,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     width: 135px;
 }
 .radio_check input[type="checkbox"]:checked + label {
-    background: #90c923 none repeat scroll 0 0;
+    background: #ef4b4a none repeat scroll 0 0;
     color: #fff;
     transform: translateX(-44px);
 }

@@ -49,7 +49,7 @@
 	transition: all 300ms ease-in-out
 }
 .thumb-grid:hover a.btn {
-	color: #90c923
+	color: #ef4b4a
 }
 .thumb-grid:hover .page-img {
 	transform: translateY(-10px)

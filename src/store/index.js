@@ -29,7 +29,7 @@ export default new Vuex.Store({
         USER_IP: null,
         CAPTCHA_KEY: "6Lf_1ZMUAAAAAC1iY_FzMJpgod5bIVl_2YYHLT9g",
         ID_COMPANY: "4",
-        URL_SITE: "https://homeland.immosystem.com.mx",
+        URL_SITE: "https://uniland.immosystem.com.mx",
         ACTUAL_PAGE: "",
         INFO_COMPANY: null,
         ERROR_CODE: 0,

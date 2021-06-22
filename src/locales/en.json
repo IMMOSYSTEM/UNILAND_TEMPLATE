@@ -45,8 +45,7 @@
             "name_input_message": "Please enter at least 4 characters",
             "email_input_placeholder": "Email",
             "email_input_message": "Enter a correct email",
-            "phone_input_label": "Phone",
-            "phone_input_placeholder": "Enter your Phone",
+            "phone_input_placeholder": "Phone",
             "phone_input_message": "Please enter at least 8 chars of subject",
             "message_input_placeholder": "Message",
             "message_input_message": "Please write something for us",
@@ -60,14 +59,6 @@
             "204": {
                 "title": "Oops! No results were found for your search",
                 "description": "Try other parameters."
-            },
-            "302": {
-                "title": "Oops! Property not found",
-                "description": "Excuse me. The property you are looking for does not exist."
-            },
-            "306": {
-                "title": "Oops! Development not found",
-                "description": "Excuse me. The developmnent you are looking for does not exist."
             }
         },
         "detail_carousel": {
@@ -87,10 +78,14 @@
                 "offices": "Offices"
             },
             "contact": "Contact",
-            "go_to_immo": "ACCESS IMMO CRM 360"
+            "go_to_immo": "ACCESS IMMO CRM 360",
+            "top":{
+                "company_phone": "Need Support?"
+            }
         },
         "header": {
             "search_form": {
+                "title": "Find your new home",
                 "keyword_input": "Name, City, Folio...",
                 "operation_input": "OPERATION",
                 "property_type_input": "PROPERTY TYPE",
@@ -117,9 +112,15 @@
             "contact_title": "Contact",
             "menu_title": "Menu",
             "social_links": "Follow Us",
-            "copyright": "All rights reserved."
+            "copyright": "All rights reserved.",
+            "immo_crm": "Log in IMMO CRM 360"
         },
-
+        "not_found": {
+            "mesage_error": "OH OH! Apparently we are ... LOST :(",
+            "link": "Back to the beginning",
+            "204_message": "Sorry, no results were found with your search parameters.",
+            "404_message": "Sorry the page you are looking for does not seem to exist."
+        },
         "banner": {
             "home_link": "Home",
             "properties_link": "Properties",
@@ -145,11 +146,13 @@
             },
             "slogan": "SLOGAN. phrase that highlights what a company does, emphasizes a value or characteristic.",
             "mision": {
-                "title": "MISION",
+                "title": "OUR",
+                "title2": "MISION",
                 "description": "The mission of a company includes the objectives and essential principles for the work of the organization. The business mission is declared with the formulation of a sentence; a single phrase in which the most important concept of a business is communicated."
             },
             "vision": {
-                "title": "VISION",
+                "title": "OUR",
+                "title2": "VISION",
                 "description": "A company's vision describes the goal it hopes to achieve in the future. the definition of the vision should be one of the central roles of the leader, and of the executive team of the company."
             },
             "values": {
@@ -161,7 +164,8 @@
                     "description": "Solidarity. Lending a hand to the needy, putting the collective welfare before profit, knowing how to curb business competitiveness inside and outside the organization."
                 }
 
-            }
+            },
+            "contact-button": "Contact Us"
         },
         "properties": {
             "title": "Properties"
@@ -176,7 +180,6 @@
             "feature_area_lot": "Land area",
             "feature_bedrooms": "Bedrooms",
             "feature_bathrooms": "Bathrooms",
-            "feature_half_bathrooms": "Half baths",
             "feature_parking": "Parking",
             "documents": "Documents",
             "share_prop": "Share",
@@ -196,8 +199,10 @@
             "references": "Reference",
             "share_title": "DOWNLOAD THE CONTENT OF THIS PROPERTY",
             "contact_us": "CONTACT US",
-            "map_title": "Location"
-
+            "map_title": "Location",
+            "folio": "Folio",
+            "banners": "Banners",
+            "flyers": "Flyers"
         },
         "developments": {
             "title": "Developments"
@@ -255,7 +260,7 @@
     },
     "routes": {
         "home": {
-            "breadcrumb": "Start"
+            "breadcrumb": "Home"
         },
         "about": {
             "page_title": "About Us",
@@ -272,10 +277,6 @@
         "property": {
             "breadcrumb": "Features"
         },
-        "property_not_found": {
-            "breadcrumb": "Property Not Found",
-            "page_title": "Property Not Found"
-        },
         "developments": {
             "page_title": "Developments",
             "breadcrumb": "Developments"
@@ -283,17 +284,10 @@
         "development": {
             "breadcrumb": "Features"
         },
-        "development_not_found": {
-            "breadcrumb": "Development Not Found",
-            "page_title": "Development Not Found"
-        },
         "search_results": {
-            "page_title": "Properties results",
+            "page_title": "Search Results",
+            "page_title_developments": "Developments Results",
             "breadcrumb": "Result"
-        },
-        "search_results_devs": {
-            "page_title": "Developments results",
-            "breadcrumb": "Dev Result"
         },
         "agents": {
             "page_title": "Agents",

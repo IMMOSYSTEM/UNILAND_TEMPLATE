@@ -23,7 +23,7 @@
 .fileupload-example-label:hover {
     background: rgba(144, 201, 35, 0.05);
     border-color: rgba(144, 201, 35, 0.7);
-    color: #90c923;
+    color: #ef4b4a;
 }
 .img_area::before, 
 .news_img::before {
@@ -55,7 +55,7 @@
 .br-widget > a.br-active, 
 .br-widget > a.br-selected, 
 .user-rating ul li.active {
-    color: #90c923
+    color: #ef4b4a
 }
 .top_right ul li .dropdown-menu > li > a, 
 .modal-body > p, 
@@ -88,7 +88,7 @@
 .client_name,
 .page_error,
 .team_img:hover .member-name {
-    color: #90c923
+    color: #ef4b4a
 }
 .pagination > li > a, 
 .pagination > li > span,
@@ -114,7 +114,7 @@ a.btn-read:hover,
 .feature-plan .price,
 .banner_title_green,
 .error-handel #success {
-    color: #90c923
+    color: #ef4b4a
 }
 .footer_contact li i, 
 .footer_contact > ul > li > a:hover, 
@@ -125,7 +125,7 @@ a.btn-read:hover,
 .property_grid:hover .property-title, 
 .property_list:hover .property-title, 
 .property-text > span > i {
-    color: #90c923
+    color: #ef4b4a
 }
 .detail_area .socail_area ul li a:hover, 
 .categories li a:hover, 
@@ -135,7 +135,7 @@ a.btn-read:hover,
 .blog-content blockquote,
 .offer_area .btn-link:hover, 
 .offer_area .btn-link:hover {
-    color: #90c923
+    color: #ef4b4a
 }
 #service_part2 .service_area:hover p, 
 #service_part2 .service_area .service_title, 
@@ -192,7 +192,7 @@ blockquote,
 .bed_area ul li.flat-icon:hover [class*=" flaticon-"]::before, 
 .bed_area ul li.flat-icon:hover [class^="flaticon-"]::after, 
 .bed_area ul li.flat-icon:hover [class*=" flaticon-"]::after {
-    color: #90c923;
+    color: #ef4b4a;
 }
 .service_icon [class^="flaticon-"]::before, 
 .service_icon [class*=" flaticon-"]::before, 
@@ -223,7 +223,7 @@ blockquote,
 .settings_links ul li a sup,
 .list_table tbody tr td a:hover,
 .author_text a.action:hover {
-    color: #90c923;
+    color: #ef4b4a;
 }
 
 /*============== Background Color ====================*/
@@ -233,7 +233,7 @@ blockquote,
 .bullet > ul > li.active,
 .slider-search-2 h1,
 .jslider .jslider-bg .v {
-    background: #90c923
+    background: #ef4b4a
 }
 .on-panel, 
 .scroll-btn, 
@@ -250,10 +250,10 @@ blockquote,
 .circle_area,
 .service_area:hover::before,
 .service_circle {
-    background-color: #90c923
+    background-color: #ef4b4a
 }
 .top_right ul li .dropdown-menu > li > a:hover {
-    background-color: #90c923;
+    background-color: #ef4b4a;
     color: #fff
 }
 .dropdown-menu, 
@@ -262,11 +262,11 @@ blockquote,
 }
 .bootstrap-select .dropdown-menu.inner li a:hover,
 .bootstrap-select .dropdown-menu.inner li a:focus {
-	background-color: #90c923
+	background-color: #ef4b4a
 }
 .dropdown-menu li a:hover, 
 .dropdown-menu li a:focus {
-    background-color: #90c923;
+    background-color: #ef4b4a;
     color: #fff;
     text-decoration: none
 }
@@ -277,7 +277,7 @@ blockquote,
 .navbar-default .navbar-nav li.active a:hover, 
 .navbar-default .navbar-nav li.active a:focus {
     background-color: transparent;
-    color: #90c923;
+    color: #ef4b4a;
     outline: 0 none;
     text-decoration: none;
 }
@@ -291,7 +291,7 @@ blockquote,
     padding: 2px 0;
 }
 .slider-property .looking-for::before {
-    border-top: 35px solid #90c923;
+    border-top: 35px solid #ef4b4a;
 }
 #top_header,
 #footer,
@@ -338,11 +338,11 @@ blockquote,
     color: #fff;
 }
 .modal-header {
-    background-color: #90c923;
+    background-color: #ef4b4a;
     color: #fff;
 }
 .tabs_edit > li > a {
-    background-color: #90c923;
+    background-color: #ef4b4a;
     color: #1a1a1a;
 }
 .tabs_edit > li.active > a:focus, 
@@ -352,7 +352,7 @@ blockquote,
     color: #1a1a1a;
 }
 .btn-default {
-    background-color: #90c923;
+    background-color: #ef4b4a;
     color: #fff;
 }
 .btn-primary {
@@ -362,8 +362,8 @@ blockquote,
 .btn-default:hover, 
 .btn-default:focus {
     background: transparent;
-    border-color: #90c923;
-    color: #90c923;
+    border-color: #ef4b4a;
+    color: #ef4b4a;
 }
 .btn-primary:hover, 
 .btn-primary:focus {
@@ -376,15 +376,15 @@ blockquote,
     border-color: #f1f1f1
 }
 .owl-theme .owl-dots .owl-dot.active span {
-    background-color: #90c923;
-    border-color: #90c923;
+    background-color: #ef4b4a;
+    border-color: #ef4b4a;
 }
 .pagination > li > a:hover, 
 .pagination > li > span:hover,
 .pagination > li > a:focus, 
 .pagination > li > span:focus {
-    background-color: #90c923;
-    border-color: #90c923;
+    background-color: #ef4b4a;
+    border-color: #ef4b4a;
     color: #fff;
     z-index: 2;
 }
@@ -394,8 +394,8 @@ blockquote,
 .pagination > .active > span:hover, 
 .pagination > .active > a:focus, 
 .pagination > .active > span:focus {
-    background-color: #90c923;
-    border-color: #90c923;
+    background-color: #ef4b4a;
+    border-color: #ef4b4a;
     color: #fff;
     cursor: default;
     z-index: 3;
@@ -428,10 +428,10 @@ blockquote,
     background-color: #000;
 }
 .find_text::before {
-    border-left-color: #90c923;
+    border-left-color: #ef4b4a;
 }
 #offer .circle_area::before {
-    border-color: transparent transparent transparent #90c923;
+    border-color: transparent transparent transparent #ef4b4a;
 }
 .sale_btn {
     background-color: #1a1a1a;
@@ -446,10 +446,10 @@ blockquote,
     color: #fff;
 }
 #who_are {
-    background: #1a1a1a url("../img/banner/who.png") no-repeat scroll 120% center;
+    background: #1a1a1a no-repeat scroll 120% center;
 }
 .panel-title a {
-    background-color: #90c923;
+    background-color: #ef4b4a;
     color: #fff;
 }
 .panel-title a.collapsed {
@@ -462,18 +462,18 @@ blockquote,
 }
 .jslider .jslider-pointer {
     background-color: #f8f8f8;
-    border: 3px solid #90c923;
+    border: 3px solid #ef4b4a;
 }
 .info-list ul li span,
 .agent_info .author_name {
-    color: #90c923;
+    color: #ef4b4a;
 }
 .feedback_small p {
     color: #a2a2a2;
 }
 .property_view ul li a:hover, 
 .property_view ul li a.active {
-    background-color: #90c923;
+    background-color: #ef4b4a;
     color: #fff;
 }
 .property_view > ul > li > a {
@@ -488,7 +488,7 @@ blockquote,
     color: #717171;
 }
 .agent-name {
-    color: #90c923;
+    color: #ef4b4a;
     line-height: 40px;
 }
 .form-control:focus {
@@ -502,10 +502,10 @@ blockquote,
 }
 .list_table thead, 
 .message_table ul li .ping {
-    background-color: #90c923;
+    background-color: #ef4b4a;
 }
 .message_table ul li .ping::before {
-    border-color: transparent #90c923 transparent transparent;
+    border-color: transparent #ef4b4a transparent transparent;
 }
 .side_bar,
 .info-pages.
@@ -518,11 +518,11 @@ blockquote,
 .populer_comment li.active a, 
 .populer_comment li:hover a,
 .tag_area li a:hover {
-    background-color: #90c923;
+    background-color: #ef4b4a;
     color: #fff;
 }
 .populer_comment li.active a::before {
-    border-top: 10px solid #90c923;
+    border-top: 10px solid #ef4b4a;
 }
 .archives li a {
     color: #4b4b4b;
@@ -544,8 +544,8 @@ blockquote,
 .info-pages .pagination > li > span:hover, 
 .info-pages .pagination > li > a:focus,
 .info-pages .pagination > li > span:focus {
-    background-color: #90c923;
-    border-color: #90c923;
+    background-color: #ef4b4a;
+    border-color: #ef4b4a;
     color: #fff;
     z-index: 2;
 }
@@ -555,8 +555,8 @@ blockquote,
 .info-pages .pagination > .active > span:hover, 
 .info-pages .pagination > .active > a:focus, 
 .info-pages .pagination > .active > span:focus {
-    background-color: #90c923;
-    border-color: #90c923;
+    background-color: #ef4b4a;
+    border-color: #ef4b4a;
     color: #fff;
     cursor: default;
     z-index: 3;
@@ -568,7 +568,7 @@ blockquote,
 .page-style-2 .tabs_edit > li.active > a:hover, 
 .page-style-2 .tabs_edit > li.active > a, 
 .page-style-2 .tabs_edit > li > a:hover {
-    background-color: #90c923;
+    background-color: #ef4b4a;
     color: #fff;
 }
 .page-style-2 .tabs_edit > li > a {
@@ -576,14 +576,14 @@ blockquote,
     color: #1a1a1a;
 }
 .tabs_edit li.active a::before {
-    border-top: 35px solid #90c923;
+    border-top: 35px solid #ef4b4a;
 }
 .category-grid .overlay:hover .overlay-title {
-    color: #90c923;
+    color: #ef4b4a;
     transition: all 0.3s ease-in-out 0s;
 }
 .achievement .counting::after {
-    background: #90c923;
+    background: #ef4b4a;
 }
 .banner-element .banner-title {
     color: #fff;
@@ -591,15 +591,15 @@ blockquote,
     padding: 30px 0;
 }
 .slider-search-2 h1::before {
-    border-top: 35px solid #90c923;
+    border-top: 35px solid #ef4b4a;
 }
 #offer-style-3 .offer_area:hover::before {
-    background: #90c923;
+    background: #ef4b4a;
     transform: scale(1);
 }
 .filter-btns li:hover, 
 .filter-btns li.active {
-    background: #90c923;
+    background: #ef4b4a;
     color: #fff;
 }
 #service_part2 .service_area > p, 
@@ -613,7 +613,7 @@ blockquote,
 }
 .feature-plan p::before, 
 .feature-plan span {
-    background: #90c923
+    background: #ef4b4a
 }
 .common-plan a.btn-default {
     background: transparent;
@@ -627,7 +627,7 @@ blockquote,
 @media screen and (min-width: 992px) {
 .navbar-default .navbar-nav > li.dropdown:hover > a, 
 .navbar-default .navbar-nav > li.dropdown:focus > a {
-    background-color: #90c923
+    background-color: #ef4b4a
 }
 .navbar-default .navbar-nav > li.dropdown:hover > a, 
 .navbar-default .navbar-nav > li.dropdown:focus > a {
@@ -638,7 +638,7 @@ blockquote,
 .navbar-default .navbar-nav > .visible > a, 
 .navbar-default .navbar-nav > .visible > a:hover, 
 .navbar-default .navbar-nav > .visible > a:focus {
-    background-color: #90c923;
+    background-color: #ef4b4a;
     color: #fff
 }
 .navbar-nav .dropdown-menu {
@@ -656,6 +656,6 @@ blockquote,
 .navbar-default .navbar-nav .visible .dropdown-menu > .active > a:hover, 
 .navbar-default .navbar-nav .visible .dropdown-menu > .active > a:focus {
     background: transparent none repeat scroll 0 0;
-    color: #90c923
+    color: #ef4b4a
 }
 }
