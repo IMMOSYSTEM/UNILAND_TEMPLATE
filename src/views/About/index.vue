@@ -28,6 +28,8 @@
 							<div class="who_text">
 								<div class="section_title_white"><h2> {{info.companyName}}</h2></div>
 								<p>{{$t("pages.about.company.description")}}</p>
+
+								<p><i class="fa fa-quote-left" aria-hidden="true"></i> {{$t("pages.about.slogan")}}  <i class="fa fa-quote-right" aria-hidden="true"></i></p>
 							</div>
 						</div>
 					</div>

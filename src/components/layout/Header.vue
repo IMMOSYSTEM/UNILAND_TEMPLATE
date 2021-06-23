@@ -1,12 +1,12 @@
 <template>
-    <header id="header">
+    <header id="header" v-if="info">
         <!-- Top Header Start -->
         <div id="top_header">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-sm-5">
                         <div class="top_contact">
-                            <ul>
+                            <ul v-if="info.phone !='0'">
                                 <li><i class="fa fa-phone" aria-hidden="true"></i>{{$t("layout.nav.top.company_phone")}} +{{info.phone}}</li>
                             </ul>
                         </div>
@@ -15,7 +15,7 @@
                         <div class="top_right">
                             <ul>
                                 <li>
-                                    <p>Locale Sw</p>
+                                    <!-- <p>Locale Sw</p> -->
                                 </li>
                             </ul>
                         </div>
@@ -41,7 +41,7 @@
                                 </button>
                                 <router-link class="navbar-brand" to="/">
                                     <img v-if="info" class="header-logo m-1" :src="info.logoClean" alt="logo_web"/>
-                                    <h4 v-else>{{ info.companyName }}</h4>
+                                    <h4 v-else ><span v-if="info.companyName !='0'">{{ info.companyName }}</span></h4>
                                 </router-link> 
                             </div>
                             <div class="collapse navbar-collapse my_nav" id="bs-example-navbar-collapse-1">
@@ -91,7 +91,7 @@ export default {
 
 <style scoped>
 .header-logo {
-    width: 5vw !important;
+    width: 3vw !important;
 }
 @media only screen and (max-width: 991px) {
     .header-logo {

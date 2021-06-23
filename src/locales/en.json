@@ -59,7 +59,8 @@
             "204": {
                 "title": "Oops! No results were found for your search",
                 "description": "Try other parameters."
-            }
+            },
+            "go_home": "Back to home"
         },
         "detail_carousel": {
             "lightbox": "Enlarge Photos"
@@ -83,27 +84,24 @@
                 "company_phone": "Need Support?"
             }
         },
-        "header": {
-            "search_form": {
-                "title": "Find your new home",
-                "keyword_input": "Name, City, Folio...",
-                "operation_input": "OPERATION",
-                "property_type_input": "PROPERTY TYPE",
-                "development_type_input": "DEVELOPMENT TYPE",
-                "min_price_input": "PRICE MIN",
-                "min_price_select": "Price min",
-                "max_price_input": "PRICE MAX",
-                "max_price_select": "Price max",
-                "municipality_input": "MUNICIPALITY",
-                "location_input": "LOCATION",
-                "option_select": "Select",
-                "option_sold": "Sold",
-                "option_rent": "Rent",
-                "option_vacation": "Vacation Rental",
-                "all_cities_option": "All cities",
-                "type_search": "SEARCH DEVELOPMENTS",
-                "button": "SEARCH"
-            }
+        "search_form": {
+            "keyword_input": "Name, City, Folio...",
+            "operation_input": "OPERATION",
+            "property_type_input": "PROPERTY TYPE",
+            "development_type_input": "DEVELOPMENT TYPE",
+            "min_price_input": "PRICE MIN",
+            "min_price_select": "Price min",
+            "max_price_input": "PRICE MAX",
+            "max_price_select": "Price max",
+            "municipality_input": "MUNICIPALITY",
+            "location_input": "LOCATION",
+            "option_select": "Select",
+            "option_sold": "Sold",
+            "option_rent": "Rent",
+            "option_vacation": "Vacation Rental",
+            "all_cities_option": "All cities",
+            "type_search": "SEARCH DEVELOPMENTS",
+            "button": "SEARCH"
         },
         "footer": {
             "company_phone": "Phone",
@@ -114,17 +112,6 @@
             "social_links": "Follow Us",
             "copyright": "All rights reserved.",
             "immo_crm": "Log in IMMO CRM 360"
-        },
-        "not_found": {
-            "mesage_error": "OH OH! Apparently we are ... LOST :(",
-            "link": "Back to the beginning",
-            "204_message": "Sorry, no results were found with your search parameters.",
-            "404_message": "Sorry the page you are looking for does not seem to exist."
-        },
-        "banner": {
-            "home_link": "Home",
-            "properties_link": "Properties",
-            "agents_link": "Agents"
         }
     },
     "pages": {

@@ -59,7 +59,8 @@
             "204": {
                 "title": "Oops! No se encontraron resultados para tu búsqueda",
                 "description": "Intente con otros parámetros."
-            }
+            },
+            "go_home": "Regresar al inicio"
         },
         "detail_carousel": {
             "lightbox": "Ampliar Fotos"
@@ -84,27 +85,24 @@
                 "company_phone": "¿Necesitas ayuda?"
             }
         },
-        "header": {
-            "search_form": {
-                "title": "Encuentra tu nueva casa",
-                "keyword_input": "Nombre, Ciudad, Folio...",
-                "operation_input": "OPERACIÓN",
-                "property_type_input": "TIPO DE PROPIEDAD",
-                "development_type_input": "TIPO DE DESARROLLO",
-                "min_price_input": "PRECIO MIN",
-                "min_price_select": "Precio min",
-                "max_price_input": "PRECIO MAX",
-                "max_price_select": "Precio max",
-                "municipality_input": "MUNICIPIO",
-                "location_input": "UBICACIÓN",
-                "option_select": "Selecciona",
-                "option_sold": "Venta",
-                "option_rent": "Renta",
-                "option_vacation": "Renta Vacacional ",
-                "all_cities_option": "Todas las ciudades",
-                "type_search": "BUSCAR DESARROLLOS",
-                "button": "BUSCAR"
-            }
+        "search_form": {
+            "keyword_input": "Nombre, Ciudad, Folio...",
+            "operation_input": "OPERACIÓN",
+            "property_type_input": "TIPO DE PROPIEDAD",
+            "development_type_input": "TIPO DE DESARROLLO",
+            "min_price_input": "PRECIO MIN",
+            "min_price_select": "Precio min",
+            "max_price_input": "PRECIO MAX",
+            "max_price_select": "Precio max",
+            "municipality_input": "MUNICIPIO",
+            "location_input": "UBICACIÓN",
+            "option_select": "Selecciona",
+            "option_sold": "Venta",
+            "option_rent": "Renta",
+            "option_vacation": "Renta Vacacional ",
+            "all_cities_option": "Todas las ciudades",
+            "type_search": "BUSCAR DESARROLLOS",
+            "button": "BUSCAR"
         },
         "footer": {
             "company_phone": "Teléfono",
@@ -115,12 +113,6 @@
             "social_links": "Síguenos",
             "copyright": "Todos los derechos reservados.",
             "immo_crm": "Acceder a IMMO CRM 360"
-        },
-        "not_found": {
-            "mesage_error": "OH OH! Al parecer estamos... PERDIDOS :(",
-            "link": "Volver al inicio",
-            "204_message": "Lo siento, no se encontraron resultados con sus parámetros de búsqueda.",
-            "404_message": "Lo siento la página que busca parece no existir."
         },
         "banner": {
             "home_link": "Inicio",

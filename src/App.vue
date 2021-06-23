@@ -7,48 +7,45 @@
   </div>
 </template>
 
-
-
 <script>
-import Footer from "@/components/layout/Footer.vue";
-// import Preloader from "@/components/layout/Preloader.vue";
-// import SearchForm from "@/components/search/SearchForm.vue";
-import Header from "@/components/layout/Header.vue";
 import Banner from "@/components/layout/Banner.vue";
+import Footer from "@/components/layout/Footer.vue";
+import Header from "@/components/layout/Header.vue";
+// import Preloader from "@/components/layout/Preloader.vue";
 export default {
   name: "App",
   components: {
-    Footer,
-    // Preloader,
-    // SearchForm,
     Header,
     Banner,
+    Footer,
+    // Preloader,
   },
-  data() {
-    return {
-      loader: true,
-    };
+  data(){
+    return{
+      loader:true
+    }
   },
-  methods: {
-    checkCookie(keyName) {
+  methods:{
+    checkCookie(keyName){
       let confirmCookie = this.$cookies.get(keyName);
 
-      if (!confirmCookie) {
+      if(!confirmCookie){
         this.createCookie(keyName, 1, 365);
-        this.$store.dispatch("setNewVisit");
-      } else {
-        this.$store.dispatch("setConcurrentVisit");
+        this.$store.dispatch('setNewVisit');
+      }else{
+        this.$store.dispatch('setConcurrentVisit');
       }
     },
 
     createCookie(name, value, expirate) {
       var d = new Date();
-      d.setTime(d.getTime() + expirate * 24 * 60 * 60 * 1000);
-      var expires = "expires=" + d.toUTCString();
+      d.setTime(d.getTime() + (expirate*24*60*60*1000));
+      var expires = "expires="+d.toUTCString();
       //create
       this.$cookies.set(name, value, expires);
-    },
+    }
   },
+
   created(){
     var self=this;
     let state=this.$store.state;
@@ -89,6 +86,19 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style>
 
+  .watermark{ 
+    /*background:transparent url('./assets/images/logoImmo/immoCRMLogo.png') no-repeat;
+    */
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+    object-position: center;
+    position: absolute;
+    width: 100%;
+  }
+  .watermark{
+    opacity: 0.9;
+  }
 </style>

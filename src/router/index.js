@@ -128,7 +128,7 @@ const routes=[
     }
   },
   {
-    path: '/equipo',
+    path: '/agentes',
     name: 'Agent',
     component: Agent,
     meta:{

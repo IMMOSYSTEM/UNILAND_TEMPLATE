@@ -1518,10 +1518,10 @@ a.btn-read{
 .team_img{
 	position:relative;
 	display:block;
-	margin-bottom: 30px
 }
 .profile-pic {
-	overflow: hidden
+	overflow: hidden;
+	text-align: center
 }
 .team_img img {
 	-ms-transform: scale(1);
@@ -1538,7 +1538,7 @@ a.btn-read{
 	transform: scale(1.1)
 }
 .member-name{
-	text-transform:capitalize;
+	font-size: 13px;
 	display:block;
 	font-weight: 400;
 	color: #717171
@@ -1554,7 +1554,8 @@ a.btn-read{
     display: block;
     padding: 30px 0;
     text-align: center;
-    width: 100%
+    width: 100%;
+	margin-bottom: -10px;
 }
 .team_img:hover .member_info{
     
@@ -2494,48 +2495,48 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 29. Properties Search Page CSS 
 ===============================================*/
 .property_search{
-	position:relative
+	position:relative  !important
 }
 .type_select{
-	width:12%;
-	display: inherit;
-	float: left
+	width:12% !important;
+	display: inherit !important;
+	float: left !important
 }
 .type_select .bootstrap-select {
-	margin-bottom: 0
+	margin-bottom: 0 !important
 }
 .search_property{
-	width:88%;
-	padding-left:20px
+	width:88% !important;
+	padding-left:20px !important
 }
 .search_icon{
-	position:absolute;
-	top:10px;
-	right:10px;
-	border:none;
-	background-color:transparent
+	position:absolute !important;
+	top:10px !important;
+	right:10px !important;
+	border:none !important;
+	background-color:transparent !important
 }
 .title {
-   font-weight: bold
+   font-weight: bold !important
 }
 #infowindow-content {
-   display: none
+   display: none !important
 }
 #map #infowindow-content {
-   display: inline
+   display: inline !important
 }
 .search_map{
-	padding:30px 0px
+	padding:30px 0px !important
 }
 .search_map #find_area {
-	background: transparent
+	background: transparent !important
 }
 .search_map #find_area .property_search_form {
-	padding-top: 0;
-	margin-top: -50px
+	padding-top: 0 !important;
+	margin-top: -50px !important
 }
 .search_map #map{
-	height:500px
+	height:500px !important
 }
 /*==========================================
 30. Contact Page CSS 
@@ -2574,7 +2575,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 31. Error Page CSS 
 =====================================*/
 #page_error {
-  padding: 120px 0;
+  padding: 30px 0;
 }
 .error_area{
 	text-align:center
@@ -2826,17 +2827,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 .important_facts {
     padding: 10px 0;
 }
-.important_facts > label {
+/* .important_facts > label {
     display: inline-block;
     font-family: "Montserrat",sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 44px;
-}
+} */
 .radio_check {
     border-radius: 22px;
     display: block;
-    float: right;
+    /* float: right; */
     height: 44px;
     overflow: hidden;
     position: relative;
@@ -4574,4 +4575,10 @@ address .inner-title {
 }
 .search-fixed-right #find-location .property_filter_input {
 	height: 100vh
+}
+
+/* ALIGN */
+
+.justify-content-center{
+	justify-content: center !important;
 }
